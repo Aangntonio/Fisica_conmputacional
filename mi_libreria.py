@@ -111,3 +111,10 @@ def tan(x,n=64):
     if -0.009 < cos(x,n) < 0.00009:
         raise ValueError('No existe la división entre zero')
     return sin(x,n) / cos(x,n)
+
+def error (arg1,arg2):
+    '''
+    Esta función genera el valor del error abosulto de 2 valores
+    '''
+    err = (abs(arg1 - arg2)/ arg1) *100
+    return err
