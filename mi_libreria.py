@@ -116,5 +116,11 @@ def error (arg1,arg2):
     '''
     Esta función genera el valor del error abosulto de 2 valores
     '''
-    err = (abs(arg1 - arg2)/ arg1) *100
+    err = abs( (arg1 - arg2/arg1)) * 100
     return err
+def horner(p1,p2):
+    '''
+    Esta función recupera ta ta ta ta
+
+    '''
+    return 2 +2 
